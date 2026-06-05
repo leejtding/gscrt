@@ -14,3 +14,4 @@ TODO
 vignettes/*.html
 vignettes/*.R
 docs
+batch_scripts
