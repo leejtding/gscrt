@@ -1,4 +1,4 @@
-# gsDesignCRT example
+# gs_design_crt example
 
 ## Introduction
 
@@ -8,24 +8,26 @@ power via simulation for a parallel group sequential CRT using the
 gsDesignCRT package.
 
 ``` r
+
 library(gsDesignCRT)
 ```
 
 ## Calculating maximum and expected sample sizes
 
 Suppose we were to design a group sequential CRT with a continuous
-outcome and $K = 3$ total analyses where two-sided tests for early
+outcome and $`K = 3`$ total analyses where two-sided tests for early
 efficacy or binding futility stopping are conducted. We want to
-calculate the maximum number of clusters per arm $m_{max}$ needed to
-detect an effect size of $0.2$ with $0.05$ Type I error and $0.9$ power
-assuming the variance of outcomes in both arms is $1$, the intracluster
-correlation coefficient (ICC) is $0.1$, and the size of each cluster is
-fixed at $50$ participants (such that $cv_{i} = 0$). We will assume that
-recruitment will be conducted under Design \#2 with $m_{max}$ clusters
-enrolled at the beginning of the trial with individual participants
-recruited into the clusters over time.
+calculate the maximum number of clusters per arm $`m_{max}`$ needed to
+detect an effect size of $`0.2`$ with $`0.05`$ Type I error and $`0.9`$
+power assuming the variance of outcomes in both arms is $`1`$, the
+intracluster correlation coefficient (ICC) is $`0.1`$, and the size of
+each cluster is fixed at $`50`$ participants (such that $`cv_{i} = 0`$).
+We will assume that recruitment will be conducted under Design \#2 with
+$`m_{max}`$ clusters enrolled at the beginning of the trial with
+individual participants recruited into the clusters over time.
 
 ``` r
+
 ## Specify desired population parameters and error rates
 mu_vec <- c(0, 0.2) # Mean outcome for intervention arms
 sd_vec <- c(1, 1) # Standard deviations for intervention arms
@@ -47,11 +49,11 @@ timing_type <- 3 # calculate maximum sample size and expected sample size based
 m_timing <- c(0, 0) # Fixed number of clusters per arm at each analysis
 n_timing <- c(1, 1) # Equal increments of individual within clusters at each
 #                     analysis
-alpha_sf <- sfLDOF # Efficacy bound spending function (O'Brien-Fleming here)
-beta_sf <- sfLDOF # Futility bound spending function (O'Brien-Fleming here)
+alpha_sf <- sf_ldof # Efficacy bound spending function (O'Brien-Fleming here)
+beta_sf <- sf_ldof # Futility bound spending function (O'Brien-Fleming here)
 
 ## Calculate corresponding sample size
-design_results <- gsDesignCRT(k = k,
+design_results <- gs_design_crt(k = k,
                               outcome_type = 1, # continuous outcomes
                               test_type = test_type,
                               test_sides = test_sides,
@@ -89,7 +91,8 @@ Stopping boundaries for the group sequential CRT design can also be
 visualized.
 
 ``` r
-gsPlotCRT(design_results)
+
+gs_plot_crt(design_results)
 ```
 
 ![](example_files/figure-html/unnamed-chunk-3-1.png)
@@ -105,6 +108,7 @@ boundaries are re-computed using the observed information at each
 analysis.
 
 ``` r
+
 set.seed(3)
 
 ## Specify simulation parameters
@@ -114,9 +118,9 @@ stat <- "Z_known" # Z-test with known variance and ICC
 reject <- c()
 
 for (i in 1:1000) {
-  sim_df <- genContCRT(m = ceiling(design_results$max_m), n = n,
+  sim_df <- gen_cont_crt(m = ceiling(design_results$max_m), n = n,
                        mu_vec = mu_vec, sigma_vec = sd_vec, rho = rho)
-  sim_trial <- gsSimCRT(design = design_results,
+  sim_trial <- gs_sim_crt(design = design_results,
                         data = sim_df,
                         stat = stat)
   reject <- c(reject, sim_trial$reject)

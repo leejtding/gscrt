@@ -5,7 +5,7 @@
 The following vignettes provide an introduction to designing group
 sequential cluster randomized trials.
 
-- [gsDesignCRT
+- [gs_design_crt
   example](https://leejtding.github.io/gsDesignCRT/articles/example.md):
 
 ### Spending Function Overview
@@ -13,4 +13,4 @@ sequential cluster randomized trials.
 The following vignettes provide an overview of spending functions.
 
 - [Spending function
-  overview](https://leejtding.github.io/gsDesignCRT/articles/SpendingFunctionOverview.md):
+  overview](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md):
