@@ -17,7 +17,6 @@ Imports:
     stats,
     tools,
     lme4,
-    performance,
     ggplot2,
     reshape2
 Suggests:
@@ -32,6 +31,6 @@ Suggests:
     utils
 VignetteBuilder:
     knitr
-RoxygenNote: 7.2.3
 Config/testthat/edition: 3
 URL: https://leejtding.github.io/gsDesignCRT/
+Config/roxygen2/version: 8.0.0

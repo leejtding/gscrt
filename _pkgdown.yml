@@ -6,52 +6,52 @@ reference:
   desc: |
     For an overview of how to use the gsDesignCRT package, see `vignette("example")`.
   contents:
-  - gsDesignCRT
-  - gsPrintCRT
-  - gsPlotCRT
+  - gs_design_crt
+  - gs_print_crt
+  - gs_plot_crt
 - title: Group Sequential CRT Boundary Computation
   contents:
-  - gsUpperCRT
-  - gsLowerCRT
-  - gsBoundsCRT
+  - gs_upper_crt
+  - gs_lower_crt
+  - gs_bounds_crt
 - title: Group Sequential CRT Stopping Probability
-  contents: gsProbabilityCRT
+  contents: gs_probability_crt
 - title: Simulate Group Sequential CRT
   contents:
-  - gsSimCRT
-  - gsSimContCRT
-  - gsSimBinCRT
-  - genContCRT
-  - genBinCRT
+  - gs_sim_crt
+  - gs_sim_cont_crt
+  - gs_sim_bin_crt
+  - gen_cont_crt
+  - gen_bin_crt
 - title: Spending Functions
   desc: |
-    For an overview of spending functions, see `vignette("SpendingFunctionOverview")`.
+    For an overview of spending functions, see `vignette("spending_function_overview")`.
   contents:
-  - spendingFunction
-  - sfLDPocock
-  - sfLDOF
-  - sfHSD
-  - sfPower
-  - sfExponential
-  - sfNormal
-  - sfCauchy
-  - sfTDist
-  - sfLogistic
-  - sfBetaDist
-  - sfExtremeValue
-  - sfExtremeValue2
-  - sfLinear
-  - sfStep
-  - sfPoints
-  - sfTrimmed
-  - sfTruncated
-  - sfGapped
+  - spending_function
+  - sf_ld_pocock
+  - sf_ldof
+  - sf_hsd
+  - sf_power
+  - sf_exponential
+  - sf_normal
+  - sf_cauchy
+  - sf_t_dist
+  - sf_logistic
+  - sf_beta_dist
+  - sf_extreme_value
+  - sf_extreme_value2
+  - sf_linear
+  - sf_step
+  - sf_points
+  - sf_trimmed
+  - sf_truncated
+  - sf_gapped
 - title: Utility Functions
   contents:
-  - checkLengths
-  - checkRange
-  - checkScalar
-  - checkVector
+  - check_lengths
+  - check_range
+  - check_scalar
+  - check_vector
 articles:
 - title: Example
   desc: |
@@ -60,5 +60,5 @@ articles:
 - title: Spending Function Overview
   desc: |
     The following vignettes provide an overview of spending functions.
-  contents: SpendingFunctionOverview
+  contents: spending_function_overview
 

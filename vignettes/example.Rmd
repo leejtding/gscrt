@@ -1,5 +1,5 @@
 ---
-title: "gsDesignCRT example"
+title: "gs_design_crt example"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{sample-size}
@@ -48,11 +48,11 @@ timing_type <- 3 # calculate maximum sample size and expected sample size based
 m_timing <- c(0, 0) # Fixed number of clusters per arm at each analysis
 n_timing <- c(1, 1) # Equal increments of individual within clusters at each
 #                     analysis
-alpha_sf <- sfLDOF # Efficacy bound spending function (O'Brien-Fleming here)
-beta_sf <- sfLDOF # Futility bound spending function (O'Brien-Fleming here)
+alpha_sf <- sf_ldof # Efficacy bound spending function (O'Brien-Fleming here)
+beta_sf <- sf_ldof # Futility bound spending function (O'Brien-Fleming here)
 
 ## Calculate corresponding sample size
-design_results <- gsDesignCRT(k = k,
+design_results <- gs_design_crt(k = k,
                               outcome_type = 1, # continuous outcomes
                               test_type = test_type,
                               test_sides = test_sides,
@@ -85,7 +85,7 @@ design_results$e_total[1, 2]
 Stopping boundaries for the group sequential CRT design can also be visualized.
 
 ```{r}
-gsPlotCRT(design_results)
+gs_plot_crt(design_results)
 ```
 
 # Evaluating empirical power via simulations
@@ -102,9 +102,9 @@ stat <- "Z_known" # Z-test with known variance and ICC
 reject <- c()
 
 for (i in 1:1000) {
-  sim_df <- genContCRT(m = ceiling(design_results$max_m), n = n,
+  sim_df <- gen_cont_crt(m = ceiling(design_results$max_m), n = n,
                        mu_vec = mu_vec, sigma_vec = sd_vec, rho = rho)
-  sim_trial <- gsSimCRT(design = design_results,
+  sim_trial <- gs_sim_crt(design = design_results,
                         data = sim_df,
                         stat = stat)
   reject <- c(reject, sim_trial$reject)

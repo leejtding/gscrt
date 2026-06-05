@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -c 50 # Number of cores requested
+#SBATCH -t 3-00:00 # Runtime
+#SBATCH -p sapphire # Partition to submit to
+#SBATCH --mem=50000
+#SBATCH --array=1-64
+#SBATCH -o out/sim_bin_m_gscrt_%A_%a.out
+
+module load R #Load R module
+Rscript --quiet --no-restore --no-save sim_bin_m_gscrt.R $SLURM_ARRAY_TASK_ID sim_bin_m_gscrt_%A_%a.out
