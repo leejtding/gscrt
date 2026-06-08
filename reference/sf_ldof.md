@@ -18,7 +18,7 @@ to approximate a Pocock design is implemented in the function
 examples below, other spending functions can be used to ge t as good or
 better approximations to Pocock and O'Brien-Fleming bounds. In
 particular, O'Brien-Fleming bounds can be closely approximated using
-[`sf_exponential`](https://leejtding.github.io/gsDesignCRT/reference/sf_exponential.md).
+[`sf_exponential`](https://leejtding.github.io/gscrt/reference/sf_exponential.md).
 
 ## Usage
 
@@ -50,7 +50,7 @@ sf_ld_pocock(alpha, t, param)
   `sf_ldof` and need not be specified. For `sf_ld_pocock` it is here so
   that the calling sequence conforms to the standard for spending
   functions used with
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md).
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md).
   For `sf_ldof` it will default to 1 (Lan-DeMets function to approximate
   O'Brien-Fleming) if `NULL` or if outside of the range `[.005,2]`.
   otherwise, it will be use to set rho from Liu et al (2012).
@@ -58,7 +58,7 @@ sf_ld_pocock(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -80,8 +80,8 @@ approach for group sequential trials with random information levels.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_package_overview")`
 
 ## Author

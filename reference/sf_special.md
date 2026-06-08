@@ -74,7 +74,7 @@ sf_gapped(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -89,8 +89,8 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

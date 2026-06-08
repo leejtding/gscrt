@@ -128,7 +128,7 @@ gs_sim_cont_crt(
   bounds, and “Pocock” for Pocock bounds). The default value is
   `sf_ldof` which is a Lan-DeMets O'Brien-Fleming spending function. See
   details,
-  [`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
+  [`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
   manual and examples.
 
 - alpha_sf_par:
@@ -148,7 +148,7 @@ gs_sim_cont_crt(
   bounds, and “Pocock” for Pocock bounds). The default value is
   `sf_ldof` which is a Lan-DeMets O'Brien-Fleming spending function. See
   details,
-  [`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
+  [`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
   manual and examples.
 
 - beta_sf_par:

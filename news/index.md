@@ -1,3 +1,3 @@
 # Changelog
 
-## gsDesignCRT 1.0.0 (January, 2026)
+## gscrt 1.0.0 (January, 2026)

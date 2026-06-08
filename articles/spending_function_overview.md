@@ -15,7 +15,7 @@ Spending functions have three arguments and return an object of type
 function for `spendfn` objects provides a brief textual summary of a
 spending function or boundary used for a design. Normally a spending
 function will be passed to
-[`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+[`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
 in the parameter `alpha_sf` for the upper bound and `beta_sf` for the
 lower bound to specify a spending function family for a design. In this
 case, the user does not need to know the calling sequence — only how to
@@ -27,7 +27,7 @@ functions, a user can write code for a spending function. See examples.
 ## Examples
 
 See
-[`spending_function()`](https://leejtding.github.io/gsDesignCRT/reference/spending_function.md)
+[`spending_function()`](https://leejtding.github.io/gscrt/reference/spending_function.md)
 for the input and output specification of spending functions. It also
 contains two code examples showing how to use an implemented spending
 function and create new spending functions. For more detailed examples,

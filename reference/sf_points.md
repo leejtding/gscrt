@@ -6,7 +6,7 @@ recommended to use sf_linear rather than sf_points. If using
 `sf_points()` in a design, it is recommended to specify how to
 interpolate between the specified points (e.g,, linear interpolation);
 also consider fitting smooth spending functions; see
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md).
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md).
 
 ## Usage
 
@@ -39,7 +39,7 @@ sf_points(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -54,10 +54,10 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`,
-[sf_logistic](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
+[sf_logistic](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
 
 ## Author
 

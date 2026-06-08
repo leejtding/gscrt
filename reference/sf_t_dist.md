@@ -38,7 +38,7 @@ sf_t_dist(alpha, t, param)
   In the three-parameter specification, the first paramater (a) may be
   any real value, the second (b) any positive value, and the third
   parameter (df=degrees of freedom) any real value 1 or greater. When
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   is called with a t-distribution spending function, this is the
   parameterization printed. The five parameter specification is
   `c(t1,t2,u1,u2,df)` where the objective is that the resulting
@@ -58,7 +58,7 @@ sf_t_dist(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -73,8 +73,8 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

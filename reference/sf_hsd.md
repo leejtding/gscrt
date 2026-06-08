@@ -6,7 +6,7 @@ A Hwang-Shih-DeCani spending function takes the form \$\$f(t;\alpha,
 \gamma)=\alpha(1-e^{-\gamma t})/(1-e^{-\gamma})\$\$ where \\\gamma\\ is
 the value passed in `param`. A value of \\\gamma=-4\\ is used to
 approximate an O'Brien-Fleming design (see
-[`sf_exponential`](https://leejtding.github.io/gsDesignCRT/reference/sf_exponential.md)
+[`sf_exponential`](https://leejtding.github.io/gscrt/reference/sf_exponential.md)
 for a better fit), while a value of \\\gamma=1\\ approximates a Pocock
 design well.
 
@@ -41,7 +41,7 @@ sf_hsd(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -56,8 +56,8 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

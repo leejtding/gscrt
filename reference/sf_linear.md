@@ -5,13 +5,13 @@ spending function. The function `sf_step()` specifies a step function
 spending function. Both functions provide complete flexibility in
 setting spending at desired timepoints in a group sequential design.
 Normally these function will be passed to
-[`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+[`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
 in the parameter `sfu` for the upper bound or `sfl` for the lower bound
 to specify a spending function family for a design. When passed to
-[`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 the value of `param` would be passed to `sf_linear()` or `sf_step()`
 through the
-[`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+[`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
 arguments `sfupar` for the upper bound and `sflpar` for the lower bound.
 
 Note that `sf_step()` allows setting a particular level of spending when
@@ -71,7 +71,7 @@ performed after the last proportion of final planned information
 was not previously spent.
 
 See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -86,8 +86,8 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

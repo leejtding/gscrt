@@ -1,4 +1,4 @@
-# gsDesignCRT: Group Sequential Design for Cluster Randomized Trials
+# gscrt: Group Sequential Design for Cluster Randomized Trials
 
 Derives group sequential cluster randomized trial designs with
 continuous or binary outcomes. Extends the package gsDesign (Anderson,
@@ -10,7 +10,7 @@ by Lee Ding and Rui Wang.
 
 Useful links:
 
-- <https://leejtding.github.io/gsDesignCRT/>
+- <https://leejtding.github.io/gscrt/>
 
 ## Author
 

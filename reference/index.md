@@ -2,88 +2,88 @@
 
 ## Group Sequential CRT Design Computation
 
-For an overview of how to use the gsDesignCRT package, see
-[`vignette("example")`](https://leejtding.github.io/gsDesignCRT/articles/example.md).
+For an overview of how to use the gscrt package, see
+[`vignette("example")`](https://leejtding.github.io/gscrt/articles/example.md).
 
-- [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+- [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   : Compute stopping boundaries, maximum sample size, and expected
   sample sizes for a group sequential cluster randomized trial.
-- [`gs_print_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_print_crt.md)
+- [`gs_print_crt()`](https://leejtding.github.io/gscrt/reference/gs_print_crt.md)
   : Print group sequential CRT design
-- [`gs_plot_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_plot_crt.md)
+- [`gs_plot_crt()`](https://leejtding.github.io/gscrt/reference/gs_plot_crt.md)
   : Plot group sequential CRT design
 
 ## Group Sequential CRT Boundary Computation
 
-- [`gs_upper_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_upper_crt.md)
+- [`gs_upper_crt()`](https://leejtding.github.io/gscrt/reference/gs_upper_crt.md)
   : Boundary derivation for efficacy stopping only.
-- [`gs_lower_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_lower_crt.md)
+- [`gs_lower_crt()`](https://leejtding.github.io/gscrt/reference/gs_lower_crt.md)
   : Boundary derivation for binding or non-binding futility stopping
   only.
-- [`gs_bounds_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_bounds_crt.md)
+- [`gs_bounds_crt()`](https://leejtding.github.io/gscrt/reference/gs_bounds_crt.md)
   : Boundary derivation for efficacy and binding or non-binding futility
   stopping.
 
 ## Group Sequential CRT Stopping Probability
 
-- [`gs_probability_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_probability_crt.md)
+- [`gs_probability_crt()`](https://leejtding.github.io/gscrt/reference/gs_probability_crt.md)
   : Compute stopping boundary crossing probabilities.
 
 ## Simulate Group Sequential CRT
 
-- [`gs_sim_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_sim_crt.md)
+- [`gs_sim_crt()`](https://leejtding.github.io/gscrt/reference/gs_sim_crt.md)
   : Simulate group sequential cluster-randomized trial.
-- [`gs_sim_cont_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_sim_cont_crt.md)
+- [`gs_sim_cont_crt()`](https://leejtding.github.io/gscrt/reference/gs_sim_cont_crt.md)
   : Simulate group sequential cluster-randomized trial with continuous
   outcomes.
-- [`gs_sim_bin_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_sim_bin_crt.md)
+- [`gs_sim_bin_crt()`](https://leejtding.github.io/gscrt/reference/gs_sim_bin_crt.md)
   : Simulate group sequential cluster-randomized trial with binary
   outcomes
-- [`gen_cont_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gen_cont_crt.md)
+- [`gen_cont_crt()`](https://leejtding.github.io/gscrt/reference/gen_cont_crt.md)
   : Simulate cluster-randomized trial data with continuous outcomes
-- [`gen_bin_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gen_bin_crt.md)
+- [`gen_bin_crt()`](https://leejtding.github.io/gscrt/reference/gen_bin_crt.md)
   : Simulate cluster-randomized trial data with binary outcomes
 
 ## Spending Functions
 
 For an overview of spending functions, see
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md).
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md).
 
-- [`spending_function()`](https://leejtding.github.io/gsDesignCRT/reference/spending_function.md)
+- [`spending_function()`](https://leejtding.github.io/gscrt/reference/spending_function.md)
   : Spending Function
-- [`sf_ldof()`](https://leejtding.github.io/gsDesignCRT/reference/sf_ldof.md)
-  [`sf_ld_pocock()`](https://leejtding.github.io/gsDesignCRT/reference/sf_ldof.md)
+- [`sf_ldof()`](https://leejtding.github.io/gscrt/reference/sf_ldof.md)
+  [`sf_ld_pocock()`](https://leejtding.github.io/gscrt/reference/sf_ldof.md)
   : Lan-DeMets Spending function overview
-- [`sf_hsd()`](https://leejtding.github.io/gsDesignCRT/reference/sf_hsd.md)
-  : Hwang-Shih-DeCani Spending Function
-- [`sf_power()`](https://leejtding.github.io/gsDesignCRT/reference/sf_power.md)
+- [`sf_hsd()`](https://leejtding.github.io/gscrt/reference/sf_hsd.md) :
+  Hwang-Shih-DeCani Spending Function
+- [`sf_power()`](https://leejtding.github.io/gscrt/reference/sf_power.md)
   : Kim-DeMets (power) Spending Function
-- [`sf_exponential()`](https://leejtding.github.io/gsDesignCRT/reference/sf_exponential.md)
+- [`sf_exponential()`](https://leejtding.github.io/gscrt/reference/sf_exponential.md)
   : Exponential Spending Function
-- [`sf_logistic()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
-  [`sf_beta_dist()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
-  [`sf_cauchy()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
-  [`sf_extreme_value()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
-  [`sf_extreme_value2()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
-  [`sf_normal()`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md)
+- [`sf_logistic()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
+  [`sf_beta_dist()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
+  [`sf_cauchy()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
+  [`sf_extreme_value()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
+  [`sf_extreme_value2()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
+  [`sf_normal()`](https://leejtding.github.io/gscrt/reference/sf_distribution.md)
   : Two-parameter Spending Function Families
-- [`sf_t_dist()`](https://leejtding.github.io/gsDesignCRT/reference/sf_t_dist.md)
+- [`sf_t_dist()`](https://leejtding.github.io/gscrt/reference/sf_t_dist.md)
   : t-distribution Spending Function
-- [`sf_linear()`](https://leejtding.github.io/gsDesignCRT/reference/sf_linear.md)
-  [`sf_step()`](https://leejtding.github.io/gsDesignCRT/reference/sf_linear.md)
+- [`sf_linear()`](https://leejtding.github.io/gscrt/reference/sf_linear.md)
+  [`sf_step()`](https://leejtding.github.io/gscrt/reference/sf_linear.md)
   : Piecewise Linear and Step Function Spending Functions
-- [`sf_points()`](https://leejtding.github.io/gsDesignCRT/reference/sf_points.md)
+- [`sf_points()`](https://leejtding.github.io/gscrt/reference/sf_points.md)
   : Pointwise Spending Function
-- [`sf_truncated()`](https://leejtding.github.io/gsDesignCRT/reference/sf_special.md)
-  [`sf_trimmed()`](https://leejtding.github.io/gsDesignCRT/reference/sf_special.md)
-  [`sf_gapped()`](https://leejtding.github.io/gsDesignCRT/reference/sf_special.md)
+- [`sf_truncated()`](https://leejtding.github.io/gscrt/reference/sf_special.md)
+  [`sf_trimmed()`](https://leejtding.github.io/gscrt/reference/sf_special.md)
+  [`sf_gapped()`](https://leejtding.github.io/gscrt/reference/sf_special.md)
   : Truncated, trimmed and gapped spending functions
 
 ## Utility Functions
 
-- [`check_lengths()`](https://leejtding.github.io/gsDesignCRT/reference/check_scalar.md)
-  [`check_range()`](https://leejtding.github.io/gsDesignCRT/reference/check_scalar.md)
-  [`check_scalar()`](https://leejtding.github.io/gsDesignCRT/reference/check_scalar.md)
-  [`check_vector()`](https://leejtding.github.io/gsDesignCRT/reference/check_scalar.md)
-  [`is_integer()`](https://leejtding.github.io/gsDesignCRT/reference/check_scalar.md)
+- [`check_lengths()`](https://leejtding.github.io/gscrt/reference/check_scalar.md)
+  [`check_range()`](https://leejtding.github.io/gscrt/reference/check_scalar.md)
+  [`check_scalar()`](https://leejtding.github.io/gscrt/reference/check_scalar.md)
+  [`check_vector()`](https://leejtding.github.io/gscrt/reference/check_scalar.md)
+  [`is_integer()`](https://leejtding.github.io/gscrt/reference/check_scalar.md)
   : Utility functions to verify variable properties

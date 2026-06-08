@@ -13,7 +13,7 @@ gs_plot_crt(x)
 - x:
 
   Object of class `gs_design_crt` created by
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md).
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md).
 
 ## Value
 

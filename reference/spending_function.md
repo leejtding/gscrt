@@ -13,7 +13,7 @@ spending_function(alpha, t, param)
 - alpha:
 
   Real value \\\> 0\\ and no more than 1. Defaults in calls to
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   are `alpha=0.025` for one-sided Type I error specification and
   `alpha=0.1` for Type II error specification. However, this could be
   set to 1 if, for descriptive purposes, you wish to see the proportion
@@ -62,18 +62,18 @@ of type `spendfn`.
 - bound:
 
   this is null when returned from the spending function, but is set in
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   if the spending function is called from there. Contains z-values for
   bounds of a design.
 
 - prob:
 
   this is null when returned from the spending function, but is set in
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   if the spending function is called from there. Contains probabilities
   of boundary crossing at `i`-th analysis for `j`-th theta value input
   to
-  [`gs_design_crt()`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md)
+  [`gs_design_crt()`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md)
   in `prob[i,j]`.
 
 ## Note
@@ -88,12 +88,12 @@ Applications to Clinical Trials*. Boca Raton: Chapman and Hall.
 
 ## See also
 
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
-[`sf_hsd`](https://leejtding.github.io/gsDesignCRT/reference/sf_hsd.md),
-[`sf_power`](https://leejtding.github.io/gsDesignCRT/reference/sf_power.md),
-[`sf_logistic`](https://leejtding.github.io/gsDesignCRT/reference/sf_distribution.md),
-[`sf_exponential`](https://leejtding.github.io/gsDesignCRT/reference/sf_exponential.md),
-[`sf_truncated`](https://leejtding.github.io/gsDesignCRT/reference/sf_special.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
+[`sf_hsd`](https://leejtding.github.io/gscrt/reference/sf_hsd.md),
+[`sf_power`](https://leejtding.github.io/gscrt/reference/sf_power.md),
+[`sf_logistic`](https://leejtding.github.io/gscrt/reference/sf_distribution.md),
+[`sf_exponential`](https://leejtding.github.io/gscrt/reference/sf_exponential.md),
+[`sf_truncated`](https://leejtding.github.io/gscrt/reference/sf_special.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

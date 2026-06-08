@@ -16,7 +16,7 @@ spending function can be derived by letting \\F(x)=1-\exp(-x)\\, the
 exponential cumulative distribution function. This function was derived
 as a generalization of the Lan-DeMets (1983) spending function used to
 approximate an O'Brien-Fleming spending function
-([`sf_ldof()`](https://leejtding.github.io/gsDesignCRT/reference/sf_ldof.md)),
+([`sf_ldof()`](https://leejtding.github.io/gscrt/reference/sf_ldof.md)),
 \$\$f(t; \alpha)=2-2\Phi \left( \Phi^{-1}(1-\alpha/2)/ t^{1/2}
 \right).\$\$
 
@@ -50,7 +50,7 @@ sf_exponential(alpha, t, param)
 ## Value
 
 An object of type `spendfn`. See
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md)
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md)
 for further details.
 
 ## Note
@@ -72,8 +72,8 @@ clinical trials. *Biometrika*; 70:659-663.
 
 ## See also
 
-[`vignette("spending_function_overview")`](https://leejtding.github.io/gsDesignCRT/articles/spending_function_overview.md),
-[`gs_design_crt`](https://leejtding.github.io/gsDesignCRT/reference/gs_design_crt.md),
+[`vignette("spending_function_overview")`](https://leejtding.github.io/gscrt/articles/spending_function_overview.md),
+[`gs_design_crt`](https://leejtding.github.io/gscrt/reference/gs_design_crt.md),
 `vignette("gs_design_crt_package_overview")`
 
 ## Author

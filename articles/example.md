@@ -4,12 +4,12 @@
 
 This article outlines the procedure for calculating the maximum and
 expected sample sizes and then evaluating the corresponding empirical
-power via simulation for a parallel group sequential CRT using the
-gsDesignCRT package.
+power via simulation for a parallel group sequential CRT using the gscrt
+package.
 
 ``` r
 
-library(gsDesignCRT)
+library(gscrt)
 ```
 
 ## Calculating maximum and expected sample sizes
