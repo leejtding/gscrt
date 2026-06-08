@@ -1,4 +1,4 @@
 #' @keywords internal
-#' @aliases gsDesignCRT-package
+#' @aliases gscrt-package
 "_PACKAGE"
 NULL

@@ -1,10 +1,10 @@
-url: https://leejtding.github.io/gsDesignCRT/
+url: https://leejtding.github.io/gscrt/
 template:
   bootstrap: 5
 reference:
 - title: Group Sequential CRT Design Computation
   desc: |
-    For an overview of how to use the gsDesignCRT package, see `vignette("example")`.
+    For an overview of how to use the gscrt package, see `vignette("example")`.
   contents:
   - gs_design_crt
   - gs_print_crt

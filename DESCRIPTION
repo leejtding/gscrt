@@ -1,4 +1,4 @@
-Package: gsDesignCRT
+Package: gscrt
 Version: 1.0.0
 Title: Group Sequential Design for Cluster Randomized Trials
 Authors@R: person(given = "Lee", family = "Ding", email =
@@ -32,5 +32,5 @@ Suggests:
 VignetteBuilder:
     knitr
 Config/testthat/edition: 3
-URL: https://leejtding.github.io/gsDesignCRT/
+URL: https://leejtding.github.io/gscrt/
 Config/roxygen2/version: 8.0.0

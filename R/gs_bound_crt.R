@@ -35,8 +35,8 @@
 #' Methods with Applications to Clinical Trials}. Boca Raton: Chapman and Hall.
 #'
 #' @export
-#' @useDynLib gsDesignCRT gs_upper_1
-#' @useDynLib gsDesignCRT gs_upper_2
+#' @useDynLib gscrt gs_upper_1
+#' @useDynLib gscrt gs_upper_2
 #'
 #' @rdname gs_upper_crt
 # gs_upper_crt function [sinew] ----
@@ -142,8 +142,8 @@ gs_upper_crt <- function(theta = 0, I, a = NULL, false_pos, sides = 1,
 #'  Methods with Applications to Clinical Trials}. Boca Raton: Chapman and Hall.
 #'
 #' @export
-#' @useDynLib gsDesignCRT gs_lower_1
-#' @useDynLib gsDesignCRT gs_lower_2
+#' @useDynLib gscrt gs_lower_1
+#' @useDynLib gscrt gs_lower_2
 #'
 #' @rdname gs_lower_crt
 # gs_lower_crt function [sinew] ----
@@ -247,10 +247,10 @@ gs_lower_crt <- function(theta = 0, I, false_neg, b = NULL, sides = 1,
 #'  Methods with Applications to Clinical Trials}. Boca Raton: Chapman and Hall.
 #'
 #' @export
-#' @useDynLib gsDesignCRT gs_bounds_1
-#' @useDynLib gsDesignCRT gs_bounds_nb_1
-#' @useDynLib gsDesignCRT gs_bounds_2
-#' @useDynLib gsDesignCRT gs_bounds_nb_2
+#' @useDynLib gscrt gs_bounds_1
+#' @useDynLib gscrt gs_bounds_nb_1
+#' @useDynLib gscrt gs_bounds_2
+#' @useDynLib gscrt gs_bounds_nb_2
 #'
 #' @rdname gs_bounds_crt
 # gs_bounds_crt function [sinew] ----
@@ -344,8 +344,8 @@ gs_bounds_crt <- function(theta = 0, I, false_neg, false_pos, sides = 1,
 #'
 #' @export
 #' @rdname gs_probability_crt
-#' @useDynLib gsDesignCRT prob_rej_1
-#' @useDynLib gsDesignCRT prob_rej_2
+#' @useDynLib gscrt prob_rej_1
+#' @useDynLib gscrt prob_rej_2
 #'
 # gs_probability_crt function [sinew] ----
 gs_probability_crt <- function(theta = 0, I = 1, a = 0, b = 1,
