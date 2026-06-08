@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(gsDesignCRT)
+library(gscrt)
 
-test_check("gsDesignCRT")
+test_check("gscrt")

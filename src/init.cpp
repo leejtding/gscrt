@@ -4,7 +4,7 @@
 #include "R_ext/Rdynload.h"
 #include "gs_design_crt.h"
 
-/* Register all .C entry points in gsDesignCRT. */
+/* Register all .C entry points in gscrt. */
 
 /*
 void gs_bound(int *x_n_anal,double *I,double *a,double *b,double *prob_lo,double *prob_hi,
@@ -147,7 +147,7 @@ static const R_CMethodDef c_entries[] = {
 };
 
 /* now register in the init function */
-extern "C" void R_init_gsDesignCRT(DllInfo *dll)
+extern "C" void R_init_gscrt(DllInfo *dll)
 {
   R_registerRoutines(dll, c_entries, NULL, NULL, NULL);
 

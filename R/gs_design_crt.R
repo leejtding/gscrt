@@ -222,6 +222,8 @@ gs_design_crt <- function(k = 3, outcome_type = 1, test_type = 1, test_sides = 1
             m_total = m_total_fix, max_m_total = m_total_fix, e_m = m_fix,
             n = n_fix, n_cv = n_cv, max_n = n_fix, e_n = n_fix,
             max_total = m_fix * n_fix, e_total = m_fix * n_fix, sufficient = 1,
+            alpha_sf = alpha_sf, alpha_sf_par = alpha_sf_par,
+            beta_sf = beta_sf, beta_sf_par = beta_sf_par,
             lower_bound = rep(0, k), upper_bound = rep(0, k), tol = tol, r = r)
 
   ### Compute maximum sample size based on information fractions ###
